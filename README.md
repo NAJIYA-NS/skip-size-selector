@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# 🛠️ Skip Size Selection Page Redesign
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a frontend redesign of the **"Choose Your Skip Size"** page for [WeWantWaste.co.uk](https://wewantwaste.co.uk), built as part of a coding challenge. The redesign enhances the UI and UX while preserving all original functionality.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- Responsive, modern skip size cards with gradient headers  
+- Truck icon or skip image for visual appeal  
+- Clear display of skip size, price, hire period, dimensions, and suitable materials  
+- Interactive modal for confirming skip selection  
+  - "Select This Skip" button highlights with gradient green on selection  
+  - Resets state on modal close or cancel  
+- Custom progress stepper with icons:  
+  - Green tick for completed steps  
+  - Blue-colored current step icon  
+  - Gray icons for upcoming steps  
+  - Color-coded connecting lines  
+  - Clickable step icons for improved UX (no action assigned)  
+- Scrollbar hidden for a clean vertical scroll experience  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📦 Tech Stack
 
-### `npm test`
+- React (functional components, hooks)  
+- Custom CSS for styling and responsive design  
+- `lucide-react` icons for crisp SVG icons  
+- Bootstrap utility classes for layout and spacing  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📂 Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
