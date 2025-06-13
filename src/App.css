@@ -1,0 +1,78 @@
+@import url("./components/ProgressStepper.css");
+
+
+.app-container {
+  background: linear-gradient(to right, #f8fafc, #e0f2fe);
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #555;
+  font-size: 1rem;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card-header {
+  background: linear-gradient(to bottom right, #fef3c7, #fde68a);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card-body {
+  background-color: white;
+  padding: 1rem 1.5rem;
+}
+
+.btn-gradient {
+  background: linear-gradient(to right, #4f46e5, #3b82f6);
+  border: none;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(to right, #4338ca, #2563eb);
+}
+
+.btn-gradient-green {
+  background: linear-gradient(to right, #10b981, #059669); /* green gradient */
+  border: none;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.btn-gradient-green:hover {
+  background: linear-gradient(to right, #059669, #047857);
+}
+
+* {
+  overflow-y: auto;      
+  scrollbar-width: none;   
+  -ms-overflow-style: none;  
+}
+
+*::-webkit-scrollbar {
+  display: none;             
+}
+
