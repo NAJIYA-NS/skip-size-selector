@@ -92,13 +92,6 @@ Enhanced accessibility features (keyboard navigation, ARIA attributes)
 
 Deployment scripts and continuous integration setup
 
-👩‍💻 Author
-Najiya
-Frontend Developer | UX/UI Enthusiast
-
-📄 License
-This project is created for a coding challenge and not licensed for commercial use.
-
 Appendix: Create React App Information
 This project was bootstrapped with Create React App. For details on available scripts, deployment, and advanced configuration, see the official documentation.
 
